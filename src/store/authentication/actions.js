@@ -3,13 +3,13 @@ export async function loadAccount({commit}, token) {
     commit('fetchAccountSuccess', {
         data: {
             id: 1,
-            username: 'truongph',
-            fullName: 'truongph',
+            username: 'ducnm',
+            fullName: 'ducnm',
             role: 1,
             status: 1
         }
     })
-    // fetch('http://127.0.0.1:8081/api/students/' + token)
+    // fetch('http://127.0.0.1:8089/login' + token)
     //     .then(response => response.json())
     //     .then((data) => {
     //         commit('fetchStudentSuccess', {
